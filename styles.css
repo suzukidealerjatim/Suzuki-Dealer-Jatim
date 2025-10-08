@@ -24,26 +24,33 @@
 
 .section__header {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: 600;
   color: var(--text-dark);
-  line-height: 3.25rem;
+  line-height: 30px;
   text-align: center;
 }
 
 .section__description {
-  color: var(--text-light);
+  color: var(--text-dark);
+    font-size: 20px;
   text-align: center;
-  line-height: 1.5rem;
+  line-height:20px;
+}
+
+.section__descriptionx {
+  color: var(--text-dark);
+    font-size: 14px;
+  line-height:20px;
 }
 
 .btn {
   padding: 0.75rem 1.5rem;
   outline: none;
   border: none;
-  font-size: 1rem;
+  font-size: 14px;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: #075e54;
   border-radius: 0.5rem;
   transition: 0.3s;
   cursor: pointer;
@@ -52,6 +59,35 @@
 .btn:hover {
   background-color: var(--primary-color-dark);
 }
+
+.btn_deals__card__footer {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: 1px solid  #075e54;
+  font-size: 14px;
+  color:#075e54;
+  background-color:var(--white);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+.btn_deals__card__footer:hover {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  color: var(--white);
+  background-color: #075e54;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
+
 
 .logo {
   display: flex;
@@ -95,10 +131,13 @@ body {
 }
 
 header {
-  background: linear-gradient(
+ /* background: linear-gradient(
     to bottom,
     rgba(138, 121, 240, 0),
     rgba(138, 121, 240, 0.1)
+  ); */
+  
+   background: #fff
   );
 }
 
@@ -204,8 +243,8 @@ nav {
 
 .header__content h1 {
   margin-bottom: 2rem;
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 35px;
+  font-weight: 900;
   color: var(--text-dark);
   text-align: center;
 }
@@ -235,6 +274,13 @@ nav {
 .header__form label {
   font-size: 20px;
   font-weight: 500;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.header__form h3 {
+  font-size: 25px;
+  font-weight: 700;
   color: var(--text-dark);
   text-align: center;
 }
@@ -308,8 +354,9 @@ nav {
 }
 
 .about__card p {
-  color: var(--text-light);
+  color: #333;
   line-height: 1.5rem;
+   font-size: 12px;
 }
 
 .deals {
@@ -385,14 +432,21 @@ nav {
 .deals__card h4 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--text-dark);
+  font-weight: 900;
+  color: #000;
+}
+
+.deals__card p {
+  margin-bottom: 1rem;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-light);
 }
 
 .deals__card__grid {
   margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
 }
 
@@ -400,7 +454,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--text-light);
+  color: #333;
 }
 
 .deals__card__grid div span {
@@ -416,20 +470,24 @@ nav {
 }
 
 .deals__card__footer h3 {
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 900;
   color: var(--text-dark);
 }
 
+
+
 .deals__card__footer h3 span {
-  font-size: 0.9rem;
+  font-size: 20px;
   font-weight: 400;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
+
+
 .deals__card__footer a {
-  font-weight: 600;
-  color: var(--primary-color);
+  font-weight: 400;
+  color: #075e54
 }
 
 .deals__card__footer a:hover {
@@ -459,7 +517,7 @@ nav {
 
 .choose__card span {
   padding: 5px 7px;
-  font-size: 1.5rem;
+  font-size: 14px;
   background-color: var(--extra-light);
   color: var(--primary-color);
   border-radius: 0.5rem;
@@ -595,6 +653,11 @@ nav {
 
 .footer {
   background-color: var(--primary-color-dark);
+}
+
+
+.footer a{
+color:#fff;
 }
 
 .footer__container {
