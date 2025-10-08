@@ -1,2 +1,2 @@
-# Suzuki-Dealer-Jatim
-Suzuki Jawa Timur mengcover area Gresik, Surabaya, Sidoarjo, Tuban, Malang, Jombang, Lamongan, Bojonegoro, Kediri, Pasuruan Probolinggo, Blitar dan Seluruh Jawa Timur.
+# Car_Rental_12-11-24
+Welcome to our comprehensive tutorial on building a responsive car rental website using HTML, CSS, and JavaScript!
