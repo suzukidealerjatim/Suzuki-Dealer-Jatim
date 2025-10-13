@@ -54,22 +54,43 @@
   border-radius: 0.5rem;
   transition: 0.3s;
   cursor: pointer;
+  animation: colorChange 7s infinite alternate;
 }
 
 .btn:hover {
   background-color: var(--primary-color-dark);
 }
 
+
+.btnx {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  color: var(--white);
+  background-color: #075e54;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+  animation: colorChange 7s infinite alternate;
+}
+.btnx:hover {
+  background-color: var(--primary-color-dark);
+}
+
+
 .btn_deals__card__footer {
   padding: 0.75rem 1.5rem;
   outline: none;
   border: 1px solid  #075e54;
-  font-size: 14px;
+  font-size: 12px;
   color:#075e54;
   background-color:var(--white);
   border-radius: 0.5rem;
   transition: 0.3s;
   cursor: pointer;
+   
+ 
 }
 
 
@@ -77,13 +98,48 @@
   padding: 0.75rem 1.5rem;
   outline: none;
   border: none;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--white);
   background-color: #075e54;
   border-radius: 0.5rem;
   transition: 0.3s;
   cursor: pointer;
+ 
 }
+
+
+
+	.button-bar {
+  padding: 2rem;
+  position: sticky;
+  bottom: 0;
+padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  color: var(--white);
+  background-color: #075e54;
+  border-radius: 0rem;
+  transition: 0.3s;
+  cursor: pointer;
+   display: block;
+  width: 100%;
+animation: colorChange 7s infinite alternate;
+ 
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #075e54;
+  }
+  50% {
+    background-color: #128c7e;
+  }
+  100% {
+    background-color: #25d366;
+  }
+}
+
 
 
 
