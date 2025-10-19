@@ -6753,11 +6753,13 @@ body.rtl-mode .price-wrapper {
 .footer-list li a {
   color: var(--color-white);
   transition: var(--transition);
+  text-decoration:none;
 }
 
 .footer-list li a i {
   margin-right: 5px;
   color: var(--theme-color);
+    text-decoration:none;
 }
 
 .footer-list li a:hover {
