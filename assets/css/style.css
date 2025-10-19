@@ -383,7 +383,7 @@ label {
 }
 
 .py-120 {
-  padding: 120px 0;
+  padding: 10px 0;
 }
 
 .pt-120 {
@@ -668,6 +668,38 @@ label {
   color: #fff;
 }
 
+.site-title-taglinexx {
+  text-transform: none;
+  letter-spacing: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--theme-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.site-title-taglinexx i{
+  line-height: 0;
+  font-size: 21px;
+}
+
+.site-titlexx {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+  color:  var(--color-dark);
+  margin-bottom: 0;
+}
+
+.site-titlexx span{
+  color: var(--theme-color);
+}
+
+
+
 
 .site-title span{
   color: var(--theme-color);
@@ -732,37 +764,6 @@ label {
 8. Theme button
 ======================*/
 
-
-.button-bar {
-  padding: 2rem;
-  position: sticky;
-  bottom: 0;
-padding: 0.75rem 1.5rem;
-  outline: none;
-  border: none;
-  font-size: 14px;
-  color: var(--white);
-  background-color: #075e54;
-  border-radius: 0rem;
-  transition: 0.3s;
-  cursor: pointer;
-   display: block;
-  width: 100%;
-animation: colorChange 7s infinite alternate;
- 
-}
-
-@keyframes colorChange {
-  0% {
-    background-color: #075e54;
-  }
-  50% {
-    background-color: #128c7e;
-  }
-  100% {
-    background-color: #25d366;
-  }
-}
 
 
 .theme-btn {
@@ -1601,8 +1602,8 @@ animation: colorChange 7s infinite alternate;
 }
 
 .hero-single {
-  padding-top: 150px;
-  padding-bottom: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -1644,7 +1645,7 @@ animation: colorChange 7s infinite alternate;
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
   color: var(--theme-color);
-  font-size: 20px;
+  font-size: 11px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
@@ -1656,6 +1657,7 @@ animation: colorChange 7s infinite alternate;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 20px;
+   
 }
 
 .hero-single .hero-content .hero-btn {
@@ -1681,8 +1683,8 @@ animation: colorChange 7s infinite alternate;
 .hero-single .hero-img{
   position: absolute;
   right: 100px;
-  bottom: 120px;
-  width: 50%;
+  bottom: 5px;
+  width: 30%;
   z-index: -1;
 }
 
@@ -1752,7 +1754,7 @@ animation: colorChange 7s infinite alternate;
 @media all and (max-width: 991px) {
 
   .hero-single .hero-content .hero-title {
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .hero-single .hero-img {
@@ -1760,7 +1762,7 @@ animation: colorChange 7s infinite alternate;
     width: 100%;
     right: unset;
     bottom: unset;
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .hero-single .hero-img::before{
@@ -2502,12 +2504,12 @@ animation: colorChange 7s infinite alternate;
 }
 
 .testimonial-single {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   background: var(--color-white);
   border-radius: 15px;
-  padding: 40px 30px 40px 30px;
+  padding: 0px 0px 0px 0px;
   position: relative;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .testimonial-quote p {
@@ -2555,7 +2557,7 @@ animation: colorChange 7s infinite alternate;
 
 .testimonial-area .owl-dots {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .testimonial-area .owl-dots .owl-dot span {
