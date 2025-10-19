@@ -1304,7 +1304,18 @@
     </footer>
     <!-- footer area end -->
 
-
+<script>
+document.addEventListener('keydown', function(e) {
+  // Menonaktifkan Ctrl + S
+  if (e.ctrlKey && e.key === 's') {
+    e.preventDefault();
+  }
+  // Menonaktifkan Ctrl + U
+  if (e.ctrlKey && e.key === 'u') {
+    e.preventDefault();
+  }
+});
+</script>
 
 
     <!-- scroll-top -->
